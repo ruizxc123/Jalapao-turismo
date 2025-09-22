@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color1: #f19213;
+    --color2: #f5ea92;
+    --color3: #883c04;
+    --color4: #9b6b43;
+    --color5: #c0c7cc;
+}
+
+.nav-top {
+    background-color: var(--color3) !important;
+}
+
+.nav-link{
+    color:var(--color5) !important ;
+}

@@ -3,18 +3,53 @@
     padding: 0;
 }
 
+/* Definições de variáveis de cor personalizadas */
 :root {
-    --color1: #f19213;
-    --color2: #f5ea92;
-    --color3: #883c04;
-    --color4: #9b6b43;
-    --color5: #c0c7cc;
+    --color1: #DFD6A7;
+    --color2: #F7CE5B;
+    --color3: #F7B05B;
+    --color4: #AF9B46;
+    --color5: #1F1300;
+    --color6: #ffffffff;
 }
-
+/* ......................................................................... */
+/*  Estilos para a barra de navegação (topo) */
 .nav-top {
     background-color: var(--color3) !important;
 }
 
-.nav-link{
-    color:var(--color5) !important ;
+/* Estilos para itens da barra de navegaçã */
+.nav-item {
+    margin: 0.5em !important;
+    text-align: center !important;
 }
+
+/* Estilos para links dentro da navegação */
+.nav-link {
+    color: var(--color6) !important;
+    background-color: var(--color4) !important;
+    border-radius: 1em !important;
+}
+/* ................................................................... */
+/*  Estilos para o botão de busca */
+.btn-buscar {
+    background-color: var(--color4) !important;
+    color: var(--color6) !important;
+}
+
+/* ...................................................................... */
+/* #demo {
+    max-height: 800px;
+}
+
+
+.carousel-item {
+    height: 50em !important;
+}
+
+
+.carousel-item img {
+    height: 100%!important; 
+    width: 100%!important; 
+    object-fit: cover!important; 
+} */

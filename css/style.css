@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 /* Definições de variáveis de cor personalizadas */
@@ -8,6 +8,7 @@
     --color1: #DFD6A7;
     --color2: #F7CE5B;
     --color3: #F7B05B;
+    --color3-tranparente: rgba(247, 176, 91, 0.5);
     --color4: #AF9B46;
     --color5: #1F1300;
     --color6: #ffffffff;
@@ -30,26 +31,63 @@
     background-color: var(--color4) !important;
     border-radius: 1em !important;
 }
-/* ................................................................... */
+
 /*  Estilos para o botão de busca */
 .btn-buscar {
     background-color: var(--color4) !important;
     color: var(--color6) !important;
 }
+/* Tamanho da img */
+.car-img{
+    max-height: 50em !important;
+    
+}
+/* Texto das imagens */
+.carousel-caption{
+    height: 6.25em !important;
+    background-color: var(--color3-tranparente) !important;
+    border-radius: 1em !important ;
+    color: var(--color6) !important;
+}
 
-/* ...................................................................... */
-/* #demo {
-    max-height: 800px;
+/* Divisão */
+.divisao{
+    background-color: var(--color3) !important;
+    text-align: center !important;
+    color: var(--color6) !important;
+    padding: 2em !important;
+    margin-bottom: 3em !important;
+}
+
+/* Pacotes */
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 0.625em !important;
+}
+
+.card{ 
+    padding: 1%!important;
+    margin: 0% 1% 1% !important;
 }
 
 
-.carousel-item {
-    height: 50em !important;
+/* Cotatos */
+.titulo{
+    background-color: var(--color3) !important;
+    color: var(--color6) !important;
+    padding: 3% !important;
+}
+.sec-cotatos{
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
 
-
-.carousel-item img {
-    height: 100%!important; 
-    width: 100%!important; 
-    object-fit: cover!important; 
-} */
+/* footer */
+footer{
+    background-color: var(--color3) !important;
+    color: var(--color6) !important;
+    padding: 0.5em !important;
+}
